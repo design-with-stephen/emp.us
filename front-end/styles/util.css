@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins";
+    list-style: none;
+}
+
+:root{
+    --background: #fafafa;
+    --textColor: #131313bb;
+    --title-color: rgba(98, 0, 255, 0.904);
+    --cards-bg:#fff;
+    --btn-bg: rgba(98, 0, 255, 0.904);
+    --btn-color: rgba(98, 0, 255, 0.904)#f2f2f2;
+    --logo-color:rgba(98, 0, 255, 0.904);
+    --linkHover: rgba(98, 0, 255, 0.904);
+    --navLinkColor:#020202f5;
+    --borderColor:#85858575;
+    --borderFocusColor:rgba(98, 0, 255, 0.904);
+}
+
+.container{
+    width: 100%;
+    background: var(--background);
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    background: var(--btn-bg);
+    color: var(--btn-color);
+    padding: 10px 20px;
+}
+
+p{
+    color: var(--textColor)
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}

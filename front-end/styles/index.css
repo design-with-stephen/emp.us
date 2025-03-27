@@ -1,0 +1,142 @@
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    padding: 20px;
+}
+.linksWrap{
+    display: flex;
+    gap: 50px;
+}
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navLink a{
+    color: var(--navLinkColor);
+}
+.logo{
+    color: var(--logo-color);
+}
+.dropDown{
+    position: relative;
+}
+.dropDownMenu{
+    display: none;
+    transition: 0.6s ease all;
+}
+.dropDownMenu.showDropDown{
+    display: block;
+    left: -80px;
+    position: absolute;
+    z-index: 999;
+    background-color: var(--cards-bg);
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+}
+.dropDownMenu .dropDownMenu-link{
+    cursor: pointer;
+    color: var(--textColor);
+
+    &:hover{
+        color: var(--linkHover);
+    }
+}
+.premium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.premium .login{
+    padding: 10px 30px;
+    background: var(--btn-bg);
+    border-radius: 50px;
+}
+.login a{
+    color: #fff;
+}
+
+/* hero section styles */
+
+.hero-section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+.heroTagLine-wrap{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroTagLine{
+    width: 58%;
+    color: var(--textColor);
+}
+.heroTitle{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+.heroTitle strong{
+    color: var(--title-color);
+}
+.searchForm{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.searchForm input{
+    width: 40%;
+    padding: 10px 20px;
+    border: 2px solid var(--borderColor);
+    border-radius: 5px;
+    color: var(--textColor);
+}
+.searchForm input:focus{
+    outline:2px solid var(--borderFocusColor);
+}
+.searchForm button{
+    padding:10px 20px;
+    color: white;
+    background: rgba(98, 0, 255, 0.904);
+    cursor: pointer;
+}
+
+/* ribbon */
+
+.ribbon{
+    display: flex;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: #4500b4;
+    padding:40px 20px;
+    transform: rotateY('26deg');
+    color: #fff;
+}
+.statistics-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.statistics{
+    font-size: 1.8rem;
+}
