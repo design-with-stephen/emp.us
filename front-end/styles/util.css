@@ -37,6 +37,13 @@ button{
     padding: 10px 20px;
 }
 
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.sectionPadding{
+    padding: 100px 0px;
+}
 p{
     color: var(--textColor)
 }
