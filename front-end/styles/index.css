@@ -340,6 +340,7 @@ footer{
     
     .sectionTitleWrap{
         text-align: center;
+        padding: 2rem;
     }
     
     .cards{
@@ -349,12 +350,15 @@ footer{
     .card p{
         font-size: 1rem;
     }
-    .cardFooter{
-        margin-top: 10px;
-    }
-    
     .cardHeader{
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+        padding: 10px 0;
+        border-bottom: 1px solid #e2e2e25e;
+    }
+
+    .cardFooter{
+        padding: 10px 0;
+        border-top: 1px solid #e2e2e25e;
     }
     .status{
         background: #cabfdb2f;

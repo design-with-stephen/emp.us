@@ -78,7 +78,8 @@
 
 @media screen and (max-width:480px){
     .testimonial-wrap{
-        padding: 40px;
+        width:90%;
+        padding: 2rem;
     }
     .testmonial-cards{
         display: flex;
