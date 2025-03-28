@@ -158,12 +158,17 @@
     padding: 0.8rem;
 }
 .card p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .cardFooter ,.cardHeader{
     display: flex;
     justify-content: space-between;
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
 }
 
 .cardFooter{
@@ -317,10 +322,11 @@ footer{
     /* ribbon */
     
     .ribbon{
+        height: fit-content;
         display: grid;
         height: fit-content;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        gap: 40px;
         padding:20px 20px;
     }
     .statistics{

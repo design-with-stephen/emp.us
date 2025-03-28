@@ -1,3 +1,8 @@
+.testimonial-wrap{
+    width:80%;
+    margin:0 auto;
+}
+
 .card-controllers{
     position: absolute;
 }
