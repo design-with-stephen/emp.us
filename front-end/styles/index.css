@@ -122,7 +122,7 @@
 
 .ribbon{
     display: flex;
-    height:100px;
+    height:200px;
     justify-content: center;
     align-items: center;
     gap: 80px;
@@ -158,7 +158,7 @@
     padding: 0.8rem;
 }
 .card p{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .cardFooter ,.cardHeader{
@@ -238,73 +238,6 @@
     height: 100%;
 }
 
-/* testimonial section */
-
-/* .testimonial-section .sectionTitleWrap{
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
-}
-.testimonial-section .sectionTitleWrap p{
-    width: 60%;
-}
-
-.testimonial-cards{
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-}
-.testimonial-card{
-    text-align: center;
-    padding: 2rem;
-} */
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 900px;
-    overflow: hidden;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.carousel-container {
-    overflow: hidden;
-    width: 100%;
-}
-.testimonial-cards {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-.testimonial-card {
-    flex: 1 0 100%; /* Default: Show 1 card per view */
-    padding: 20px;
-    text-align: center;
-}
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-.prev {
-    left: 10px;
-}
-.next {
-    right: 10px;
-}
-
 footer{
     background: #23005a;
     height: 40vh;
@@ -315,9 +248,11 @@ footer{
 /* media queries */
 
 @media screen and (max-width:600px){
+
     .navbar{
-        width: 95%;
-        padding: 0.6rem;
+        width: 100%;
+        padding: 1.2rem;
+        background: #4500b4;
     }
     .linksWrap{
         display: none;
@@ -332,7 +267,9 @@ footer{
     .navLink{
         display: none;
     }
-    
+    .logo{
+        color: #fff;
+    }
     .dropDown{
         position: relative;
     }
@@ -363,7 +300,7 @@ footer{
     }
     .heroTitle{
         font-weight: 400;
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     
     .searchForm{
@@ -384,10 +321,11 @@ footer{
     /* ribbon */
     
     .ribbon{
+        height: 300px;
         display: grid;
         height: fit-content;
-        grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
         padding:20px 20px;
     }
     .statistics{
