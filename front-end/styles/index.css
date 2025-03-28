@@ -315,9 +315,6 @@ footer{
 /* media queries */
 
 @media screen and (max-width:600px){
-    .testimonial-card {
-        flex: 1 0 50%; /* Show 2 cards on medium screens */
-    }
     .navbar{
         width: 95%;
         padding: 0.6rem;
@@ -362,6 +359,7 @@ footer{
     .heroTagLine{
         width: 100%;
         color: var(--textColor);
+        font-size: 1.2rem;
     }
     .heroTitle{
         font-weight: 400;
