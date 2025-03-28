@@ -138,7 +138,7 @@
     align-items: center;
 }
 .statistics{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 
@@ -196,4 +196,325 @@
 .steps{
     font-size: 0.8rem;
     color: var(--textColor);
+}
+
+.seperator{
+    margin-top: 1.2rem;
+}
+
+.HowItWorks {
+    background: #fff;
+    padding: 20px 0;
+    width: 100%;
+    height: 80vh;
+}
+
+.HowItworksContent {
+    display: grid;
+    width: 80%;
+    height: 100%; 
+    gap: 30px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imageWrap{
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+}
+.top-wrap{
+    height: 260px;
+}
+.bottom-wrap{
+    height: 100px;
+    position: relative;
+    left: -20px;
+}
+.top-wrap img, .bottom-wrap img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* testimonial section */
+
+/* .testimonial-section .sectionTitleWrap{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+.testimonial-section .sectionTitleWrap p{
+    width: 60%;
+}
+
+.testimonial-cards{
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+.testimonial-card{
+    text-align: center;
+    padding: 2rem;
+} */
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+}
+.testimonial-cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial-card {
+    flex: 1 0 100%; /* Default: Show 1 card per view */
+    padding: 20px;
+    text-align: center;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+footer{
+    background: #23005a;
+    height: 40vh;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:600px){
+    .testimonial-card {
+        flex: 1 0 50%; /* Show 2 cards on medium screens */
+    }
+    .navbar{
+        width: 95%;
+        padding: 0.6rem;
+    }
+    .linksWrap{
+        display: none;
+        gap: 50px;
+    }
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .navLink{
+        display: none;
+    }
+    
+    .dropDown{
+        position: relative;
+    }
+    .dropDownMenu{
+        display: none;
+        transition: 0.6s ease all;
+    }
+    
+    
+    /* hero section styles */
+    
+    .hero-section{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-content{
+        width: 90%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .heroTagLine{
+        width: 100%;
+        color: var(--textColor);
+    }
+    .heroTitle{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    
+    .searchForm{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .searchForm input{
+        width: 65%;
+    }
+    .searchForm button{
+        padding:10px 20px;
+        color: white;
+        background: rgba(98, 0, 255, 0.904);
+        cursor: pointer;
+    }
+    
+    /* ribbon */
+    
+    .ribbon{
+        display: grid;
+        height: fit-content;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        padding:20px 20px;
+    }
+    .statistics{
+        font-size: 0.9rem;
+    }
+    .statistics-wrap span:nth-child(2){
+        font-size: 0.8rem;
+    }
+    
+    /* featured jobs */
+    
+    .sectionTitleWrap{
+        text-align: center;
+    }
+    
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+
+
+    .cardFooter{
+        margin-top: 10px;
+    }
+    
+    .cardHeader{
+        margin-bottom: 10px;
+    }
+    .status{
+        background: #cabfdb2f;
+        padding: 2px 10px;
+        border-radius: 10px;
+        font-size: 0.5rem;
+    }
+    .applyBtn{
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .seeMoreBtnWrap{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 2rem;
+    }
+    .seeMoreBtnWrap a{
+        color: var(--textColor);
+    }
+    .steps{
+        font-size: 0.8rem;
+        color: var(--textColor);
+    }
+    
+    .seperator{
+        margin-top: 1.2rem;
+    }
+    
+    .HowItWorks {
+        background: #fff;
+        padding: 20px 0;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .HowItworksContent {
+        display: grid;
+        width: 90%;
+        height: 100%; 
+        gap: 30px;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .imageWrap{
+        height: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2px;
+    }
+    .top-wrap{
+        height: 260px;
+    }
+    .bottom-wrap{
+        height: 100px;
+        position: relative;
+        left: 0px;
+    }
+    .top-wrap img, .bottom-wrap img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* testimonial section */
+    
+    /* .testimonial-section .sectionTitleWrap{
+        width: 90%;
+    }
+    .testimonial-section .sectionTitleWrap p{
+        width: 100%;
+    }
+    
+    .testimonial-cards{
+        width: 90%;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        overflow: hidden;
+        gap: 10px;
+    }
+    .testimonial-card{
+        background: #23005a;
+        width: 300px;
+        text-align: center;
+        padding: 0.2rem;
+    } */
+    footer{
+        background: #23005a;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 900px) {
+    .testimonial-card {
+        flex: 1 0 33.33%; /* Show 3 cards on large screens */
+    }
 }

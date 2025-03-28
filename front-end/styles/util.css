@@ -8,12 +8,13 @@
 }
 
 :root{
-    --background: #fafafa;
+    --background: #fcfcfc;
     --textColor: #131313bb;
+    --white:#fff;
     --title-color: rgba(98, 0, 255, 0.904);
     --cards-bg:#fff;
     --btn-bg: rgba(98, 0, 255, 0.904);
-    --btn-color: rgba(98, 0, 255, 0.904)#f2f2f2;
+    --btn-color: #f2f2f2;
     --logo-color:rgba(98, 0, 255, 0.904);
     --linkHover: rgba(98, 0, 255, 0.904);
     --navLinkColor:#020202f5;
@@ -51,4 +52,26 @@ p{
 .wrapper{
     width: 80%;
     margin: 0 auto;
+}
+.ctn{
+    margin-top: 1.2rem;
+}
+
+@media screen and (max-width:600px){
+    h3{
+        font-size: 1.2rem;
+    }
+    .sectionPadding{
+        padding: 50px 0px;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .ctn{
+        margin-top: 0.8rem;
+    }
 }
