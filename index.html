@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="stylesheet" href="front-end/styles/util.css">
     <link rel="stylesheet" href="front-end/styles/index.css">
     <link rel="stylesheet" href="front-end/styles/testimonials.css">
@@ -39,8 +40,12 @@
                     <ul class="premium">
                         <li class="navLink"><a href="">upgrade</a></li>
                         <button class="login"><a href="">Login</a></button>
+                        
                     </ul>
                 </ul>
+                <div class="hamburger">
+                    <span><i class="fa-solid fa-bars"></i></span>
+              </div>
             </nav>
             <section class="hero-section">
                 <div class="hero-content">
@@ -58,7 +63,47 @@
                     </form>
                 </div>
             </section>
+            <div class="mobileNavBar">
+                <ul class="mobile-linksWrap">
+                    <ul class="mobile-navLinks">
+                        <li class="mobile-navLink"><a href="">Home</a></li>
+                        <!-- <li class="mobile-dropDown navLink">
+                            <a class="mobile-dropDown_Link" href="">categories</a>
+                            <ul class="mobile-dropDownMenu">
+                                <li class="mobile-dropDownMenu-link">Tech Jobs</li>
+                                <li class="mobile-dropDownMenu-link">Medical Jobs</li>
+                                <li class="mobile-dropDownMenu-link">Education</li>
+                                <li class="mobile-dropDownMenu-link">Marketing</li>
+                                <li class="mobile-dropDownMenu-link">Business</li>
+                                <li class="mobile-dropDownMenu-link">Hospitality</li>
+                                <li class="mobile-dropDownMenu-link">Design</li>
+                                <li class="mobile-dropDownMenu-link">Freelancing</li>
+                                <li class="mobile-dropDownMenu-link">Finance</li>
+                            </ul>
+                        </li> -->
+                        <li class="mobile-navLink"><a href="">Partners</a></li>
+                        <li class="mobile-navLink"><a href="">Contact</a></li>
+                        <li class="mobile-navLink"><a href="">About Us</a></li>
+                        <li class="mobile-navLink"><a href="">Support</a></li>
+                        <div class="mobile-premium">
+                            <button class="mobile-login"><a href="">Login</a></button>
+                        </div>
+                    </ul>
+                    <div class="lower-section">
+                        <div class="mobile-upgrade">
+                            <h4>Upgrade</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Ad explicabo, dicta eum amet necessitatibus delectus, 
+                                obcaecati sunt consectetur inventore itaque.
+                            </p>
+                            <div class="upgradeBtn"><a href="">upgrade</a></div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </header>
+
         <main>
             <section class="ribbon">
                 <div class="statistics-wrap">
@@ -378,5 +423,6 @@
 
     <script src="front-end/scripts/index.js"></script>
     <script src="front-end/scripts/testmonialCards.js"></script>
+    <script src="front-end/scripts/mobileSideBar.js"></script>
 </body>
 </html>
