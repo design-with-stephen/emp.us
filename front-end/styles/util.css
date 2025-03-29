@@ -21,7 +21,9 @@
     --borderColor:#85858575;
     --borderFocusColor:rgba(98, 0, 255, 0.904);
 }
-
+body.no-scroll {
+    overflow: hidden;
+}
 .container{
     width: 100%;
     background: var(--background);

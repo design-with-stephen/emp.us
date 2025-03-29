@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="stylesheet" href="front-end/styles/util.css">
     <link rel="stylesheet" href="front-end/styles/index.css">
@@ -64,11 +67,21 @@
                 </div>
             </section>
             <div class="mobileNavBar">
+               <div class="sidebarTop">
+                  <h3 class="company-logo">emp.us</h3>
+                  <!-- close icon -->
+                  <span class="close-icon">
+                      <i class="fa-solid fa-square-xmark"></i>
+                  </span>
+               </div>
                 <ul class="mobile-linksWrap">
                     <ul class="mobile-navLinks">
                         <li class="mobile-navLink"><a href="">Home</a></li>
-                        <!-- <li class="mobile-dropDown navLink">
-                            <a class="mobile-dropDown_Link" href="">categories</a>
+                        <li class="mobile-dropDown mobile-navLink">
+                            <span class="mobile-dropDown_Link mobNavLinkFlex">
+                              <a class="" href="#">categories</a>
+                              <i class="fa-solid fa-angle-down"></i>
+                            </span>
                             <ul class="mobile-dropDownMenu">
                                 <li class="mobile-dropDownMenu-link">Tech Jobs</li>
                                 <li class="mobile-dropDownMenu-link">Medical Jobs</li>
@@ -80,13 +93,13 @@
                                 <li class="mobile-dropDownMenu-link">Freelancing</li>
                                 <li class="mobile-dropDownMenu-link">Finance</li>
                             </ul>
-                        </li> -->
+                        </li>
                         <li class="mobile-navLink"><a href="">Partners</a></li>
                         <li class="mobile-navLink"><a href="">Contact</a></li>
                         <li class="mobile-navLink"><a href="">About Us</a></li>
                         <li class="mobile-navLink"><a href="">Support</a></li>
                         <div class="mobile-premium">
-                            <button class="mobile-login"><a href="">Login</a></button>
+                            <button class="mobile-login"><a href="">Login</a><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
                         </div>
                     </ul>
                     <div class="lower-section">
@@ -103,7 +116,7 @@
                 </ul>
             </div>
         </header>
-
+        <div class="overlay" id="overlay"></div>
         <main>
             <section class="ribbon">
                 <div class="statistics-wrap">
@@ -152,7 +165,10 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             
                             </div>
                         </div>
@@ -169,7 +185,10 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
@@ -185,7 +204,10 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
@@ -201,7 +223,10 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
@@ -217,7 +242,9 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             </div>
                         </div>
                         <div class="card">
@@ -233,7 +260,10 @@
                             </div>
                             <div class="cardFooter">
                                 <p>Posted: 2 days ago</p>
-                                <button class="btn applyBtn">Apply</button>
+                                <button class="btn applyBtn">Apply
+                                  
+                                  <i class="fa-regular fa-share-from-square"></i>
+                                </button>
                             </div>
                         </div>
                     </div>

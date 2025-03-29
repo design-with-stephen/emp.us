@@ -7,7 +7,6 @@
 
     dropDown_link.addEventListener("mouseover", (e) => {
         e.preventDefault();
-        // alert("hey");
         dropDownMenu.classList.add("showDropDown");
     })
 
@@ -21,14 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const stats = document.querySelectorAll(".statistics");
 
     function animateCount(stat) {
-        let target = Number(stat.getAttribute("data-target")); // Convert to number
+        let target = Number(stat.getAttribute("data-target"));
         let count = 0;
-        let speed = target / 100; // Adjust speed for smoother counting
+        let speed = target / 100; 
 
         let counter = setInterval(() => {
-            count += Math.ceil(speed); // Increment smoothly
+            count += Math.ceil(speed); 
             if (count >= target) {
-                stat.innerText = target + "+"; // Add the plus sign dynamically
+                stat.innerText = target + "+"; 
                 clearInterval(counter);
             } else {
                 stat.innerText = count;
@@ -54,3 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+// on scroll the navbar if fixed at the top of the page
+
+const fixedNavBar = document.querySelector(".navbar");
+const body = document.querySelector("body");
+window.addEventListener("scroll", () => {
+    fixedNavBar.classList.add("navbarOnScroll");
+    console.log("scrolled")
+})
