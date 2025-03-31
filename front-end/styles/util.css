@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "poppins";
-    list-style: none;
 }
 
 :root{
@@ -20,6 +19,10 @@
     --navLinkColor:#020202f5;
     --borderColor:#85858575;
     --borderFocusColor:rgba(98, 0, 255, 0.904);
+}
+
+ul{
+    list-style: none;
 }
 body.no-scroll {
     overflow: hidden;
@@ -54,12 +57,19 @@ p{
 .sectionTitle{
     font-weight: 400;
 }
+
+.subtitle{
+    color: #430396;
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+    
+}
 .wrapper{
     width: 80%;
     margin: 0 auto;
 }
 .ctn{
-    margin-top: 1.2rem;
+    margin-top: 1.05rem;
 }
 .textCentered{
     text-align: center;

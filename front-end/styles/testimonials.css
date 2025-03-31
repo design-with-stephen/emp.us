@@ -82,7 +82,7 @@
 @media screen and (max-width:480px){
     .testimonial-wrap{
         width:90%;
-        padding: 2rem;
+        padding: 1.8rem;
     }
     .testmonial-cards{
         display: flex;
@@ -91,7 +91,7 @@
         overflow-x: hidden;
         scroll-snap-type: x mandatory;
     }
-
+    
     .tcard{
         width: 100%;
         scroll-snap-align: start;
