@@ -3,6 +3,9 @@
     margin: 0 auto;
 }
 
+.testmonial-content{
+    text-align: center;
+}
 .card-controllers{
     position: absolute;
 }

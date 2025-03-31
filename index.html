@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
-    <link rel="stylesheet" href="front-end/styles/util.css">
     <link rel="stylesheet" href="front-end/styles/index.css">
     <link rel="stylesheet" href="front-end/styles/testimonials.css">
+    <link rel="stylesheet" href="front-end/styles/navBar.css">
+    <link rel="stylesheet" href="front-end/styles/footer.css">
+    <link rel="stylesheet" href="front-end/styles/util.css">
 </head>
 <body>
     <div class="container">
@@ -66,56 +68,58 @@
                     </form>
                 </div>
             </section>
-            <div class="mobileNavBar">
-               <div class="sidebarTop">
-                  <h3 class="company-logo">emp.us</h3>
-                  <!-- close icon -->
-                  <span class="close-icon">
-                      <i class="fa-solid fa-square-xmark"></i>
-                  </span>
-               </div>
-                <ul class="mobile-linksWrap">
-                    <ul class="mobile-navLinks">
-                        <li class="mobile-navLink"><a href="">Home</a></li>
-                        <li class="mobile-dropDown mobile-navLink">
-                            <span class="mobile-dropDown_Link mobNavLinkFlex">
-                              <a class="" href="#">categories</a>
-                              <i class="fa-solid fa-angle-down"></i>
-                            </span>
-                            <ul class="mobile-dropDownMenu">
-                                <li class="mobile-dropDownMenu-link">Tech Jobs</li>
-                                <li class="mobile-dropDownMenu-link">Medical Jobs</li>
-                                <li class="mobile-dropDownMenu-link">Education</li>
-                                <li class="mobile-dropDownMenu-link">Marketing</li>
-                                <li class="mobile-dropDownMenu-link">Business</li>
-                                <li class="mobile-dropDownMenu-link">Hospitality</li>
-                                <li class="mobile-dropDownMenu-link">Design</li>
-                                <li class="mobile-dropDownMenu-link">Freelancing</li>
-                                <li class="mobile-dropDownMenu-link">Finance</li>
-                            </ul>
-                        </li>
-                        <li class="mobile-navLink"><a href="">Partners</a></li>
-                        <li class="mobile-navLink"><a href="">Contact</a></li>
-                        <li class="mobile-navLink"><a href="">About Us</a></li>
-                        <li class="mobile-navLink"><a href="">Support</a></li>
-                        <div class="mobile-premium">
-                            <button class="mobile-login"><a href="">Login</a><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
-                        </div>
-                    </ul>
-                    <div class="lower-section">
-                        <div class="mobile-upgrade">
-                            <h4>Upgrade</h4>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                                Ad explicabo, dicta eum amet necessitatibus delectus, 
-                                obcaecati sunt consectetur inventore itaque.
-                            </p>
-                            <div class="upgradeBtn"><a href="">upgrade</a></div>
-                        </div>
-                    </div>
-                </ul>
-            </div>
         </header>
+        <section>
+          <div class="mobileNavBar">
+            <div class="sidebarTop">
+               <h3 class="company-logo">emp.us</h3>
+               <!-- close icon -->
+               <span class="close-icon">
+                   <i class="fa-solid fa-square-xmark"></i>
+               </span>
+            </div>
+             <ul class="mobile-linksWrap">
+                 <ul class="mobile-navLinks">
+                     <li class="mobile-navLink"><a href="">Home</a></li>
+                     <li class="mobile-dropDown mobile-navLink">
+                         <span class="mobile-dropDown_Link mobNavLinkFlex">
+                           <a class="" href="#">categories</a>
+                           <i class="fa-solid fa-angle-down"></i>
+                         </span>
+                         <ul class="mobile-dropDownMenu">
+                             <li class="mobile-dropDownMenu-link">Tech Jobs</li>
+                             <li class="mobile-dropDownMenu-link">Medical Jobs</li>
+                             <li class="mobile-dropDownMenu-link">Education</li>
+                             <li class="mobile-dropDownMenu-link">Marketing</li>
+                             <li class="mobile-dropDownMenu-link">Business</li>
+                             <li class="mobile-dropDownMenu-link">Hospitality</li>
+                             <li class="mobile-dropDownMenu-link">Design</li>
+                             <li class="mobile-dropDownMenu-link">Freelancing</li>
+                             <li class="mobile-dropDownMenu-link">Finance</li>
+                         </ul>
+                     </li>
+                     <li class="mobile-navLink"><a href="">Partners</a></li>
+                     <li class="mobile-navLink"><a href="">Contact</a></li>
+                     <li class="mobile-navLink"><a href="">About Us</a></li>
+                     <li class="mobile-navLink"><a href="">Support</a></li>
+                     <div class="mobile-premium">
+                         <button class="mobile-login"><a href="">Login</a><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+                     </div>
+                 </ul>
+                 <div class="lower-section">
+                     <div class="mobile-upgrade">
+                         <h4>Upgrade</h4>
+                         <p>
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                             Ad explicabo, dicta eum amet necessitatibus delectus, 
+                             obcaecati sunt consectetur inventore itaque.
+                         </p>
+                         <div class="upgradeBtn"><a href="">upgrade</a></div>
+                     </div>
+                 </div>
+             </ul>
+         </div>
+        </section>
         <div class="overlay" id="overlay"></div>
         <main>
             <section class="ribbon">
@@ -305,10 +309,10 @@
             <section class="testimonials-section">
                 <div class="testimonial-wrap">
                   <div class="testmonial-content">
-                    <h2 class="sectionTitle titleColor">
+                    <h2 class="sectionTitle textCenterd">
                       What others say about us
                     </h2>
-                    <p class="tagline">
+                    <p class="textCenterd">
                       Our clients love us, and we're sure you will too!
                     </p>
                   </div>
@@ -443,10 +447,53 @@
                     </div>
                 </div>
             </section>
+            <section class="subscription-section">
+              <div class="subscriptTitle sectionTitleWrap">
+                <h2 class="sectionTitle ">Subscribe to our Daily News Letter</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipisicing elit. Perferendis nobis molestias,
+                   placeat, deserunt dolores consectetur commodi 
+                </p>
+              </div>
+              <div class="form-wrapper">
+                <form action="" class="subscriptionForm">
+                  <input type="text" placeholder="pease enter your email here">
+                  <button class="btn">Subscribe</button>
+                </form>
+              </div>
+            </section>
         </main>
         <footer>
             <div class="footerContent">
+              <div class="topFooter">
+                <div class="leftWrap">
+                  <span class="logo">
+                    empUs
+                  </span>
+                  <span class="social-media">
 
+                  </span>
+                </div>
+                <div class="middleWrap">
+                  <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Partners</a></li>
+                  </ul>
+                </div>
+                <div class="rightWrap">
+                  <li><a href="">Support</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Pricing</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lowerFooter">
+                 <span>&copy; 2025 empUs</span>
+              </div>
             </div>
         </footer>
     </div>

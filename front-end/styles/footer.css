@@ -1,0 +1,30 @@
+
+footer{
+    background: #23005a;
+    height: 40vh;
+}
+.footerContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.topFooter div{
+    background: #936ecf;
+}
+.topFooter{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* media queries */
+
+@media screen and (max-width:600px){
+    footer{
+        background: #23005a;
+        height: 40vh;
+    }
+}

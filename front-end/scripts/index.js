@@ -61,4 +61,4 @@ const body = document.querySelector("body");
 window.addEventListener("scroll", () => {
     fixedNavBar.classList.add("navbarOnScroll");
     console.log("scrolled")
-})
+});
