@@ -11,7 +11,7 @@
     width: 100%;
     position: fixed;
     background: #fff;
-    z-index: 800;
+    z-index: 700;
 }
 .linksWrap{
     display: flex;
@@ -107,7 +107,7 @@
     padding: 2rem;
     left: -100%;
     transition: 0.6s ease all;
-    z-index: 669;
+    z-index: 800;
 }
 .mobile-linksWrap {
     overflow-y: scroll; 
