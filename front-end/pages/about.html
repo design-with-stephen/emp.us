@@ -6,12 +6,103 @@
     <title>about us</title>
     
     <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../../front-end/styles/testimonials.css">
+    <link rel="stylesheet" href="../styles/navBar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/util.css">
 </head>
 <body>
     <div class="container">
         <!-- navbar here -->
-
+        <header>
+            <!-- navbar -->
+            <nav class="navbar">
+                <ul>
+                    <h3 class="logo">emp.us</h3>
+                </ul>
+                <ul class="linksWrap">
+                    <ul class="navLinks">
+                        <li class="navLink"><a href="">Home</a></li>
+                        <li class="dropDown navLink">
+                            <a class="dropDown_Link" href="">categories</a>
+                            <ul class="dropDownMenu">
+                                <li class="dropDownMenu-link">Tech Jobs</li>
+                                <li class="dropDownMenu-link">Medical Jobs</li>
+                                <li class="dropDownMenu-link">Education</li>
+                                <li class="dropDownMenu-link">Marketing</li>
+                                <li class="dropDownMenu-link">Business</li>
+                                <li class="dropDownMenu-link">Hospitality</li>
+                                <li class="dropDownMenu-link">Design</li>
+                                <li class="dropDownMenu-link">Freelancing</li>
+                                <li class="dropDownMenu-link">Finance</li>
+                            </ul>
+                        </li>
+                        <li class="navLink"><a href="">Partners</a></li>
+                        <li class="navLink"><a href="">Contact</a></li>
+                    </ul>
+                    <ul class="premium">
+                        <li class="navLink"><a href="">upgrade</a></li>
+                        <button class="login"><a href="">Login</a></button>
+                        
+                    </ul>
+                </ul>
+                <div class="hamburger">
+                    <span><i class="fa-solid fa-bars"></i></span>
+              </div>
+            </nav>
+        </header>
+        <section>
+          <div class="mobileNavBar">
+            <div class="sidebarTop">
+               <h3 class="company-logo">emp.us</h3>
+               <!-- close icon -->
+               <span class="close-icon">
+                   <i class="fa-solid fa-square-xmark"></i>
+               </span>
+            </div>
+             <ul class="mobile-linksWrap">
+                 <ul class="mobile-navLinks">
+                     <li class="mobile-navLink"><a href="">Home</a></li>
+                     <li class="mobile-dropDown mobile-navLink">
+                         <span class="mobile-dropDown_Link mobNavLinkFlex">
+                           <a class="" href="#">categories</a>
+                           <i class="fa-solid fa-angle-down"></i>
+                         </span>
+                         <ul class="mobile-dropDownMenu">
+                             <li class="mobile-dropDownMenu-link">Tech Jobs</li>
+                             <li class="mobile-dropDownMenu-link">Medical Jobs</li>
+                             <li class="mobile-dropDownMenu-link">Education</li>
+                             <li class="mobile-dropDownMenu-link">Marketing</li>
+                             <li class="mobile-dropDownMenu-link">Business</li>
+                             <li class="mobile-dropDownMenu-link">Hospitality</li>
+                             <li class="mobile-dropDownMenu-link">Design</li>
+                             <li class="mobile-dropDownMenu-link">Freelancing</li>
+                             <li class="mobile-dropDownMenu-link">Finance</li>
+                         </ul>
+                     </li>
+                     <li class="mobile-navLink"><a href="">Partners</a></li>
+                     <li class="mobile-navLink"><a href="">About Us</a></li>
+                     <li class="mobile-navLink"><a href="">Support</a></li>
+                     <li class="mobile-navLink"><a href="">Contact</a></li>
+                     <div class="mobile-premium">
+                         <button class="mobile-login"><a href="">Login</a><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+                     </div>
+                 </ul>
+                 <div class="lower-section">
+                     <div class="mobile-upgrade">
+                         <h4>Upgrade</h4>
+                         <p>
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                             Ad explicabo, dicta eum amet necessitatibus delectus, 
+                             obcaecati sunt consectetur inventore itaque.
+                         </p>
+                         <div class="upgradeBtn"><a href="">upgrade</a></div>
+                     </div>
+                 </div>
+             </ul>
+         </div>
+        </section>
+        <div class="overlay" id="overlay"></div>
          <!-- end of Navbar -->
         <!-- start of Hero Section -->
         <section class="aboutHero-section">
@@ -21,7 +112,7 @@
         </section>
         <!-- end of Hero Section -->
 
-        <main>
+        <main class="aboutmain-section">
             <section class="aboutContent_section">
                 <div class="aboutContent">
                     <h2 class="sectionTitle">About Us</h2>
@@ -72,15 +163,239 @@
                     </p>
                 </div>
             </section>
-            <section class="teamSection">
-
+            <section class="coreValuesSection">
+                <div class="coreValuesWrap">
+                    <div class="valuesContainer">
+                        <h2 class="sectionTitle">Our Core Values</h2>
+                        <div class="valuesList">
+                            <div class="valueItem">
+                                <h3>Empowerment</h3>
+                                <p>We believe in empowering job seekers with the right tools, knowledge, and opportunities to help them build successful careers. Our platform connects talent with employers who value their skills and potential.</p>
+                            </div>
+                            <div class="valueItem">
+                                <h3>Integrity & Transparency</h3>
+                                <p>We uphold the highest ethical standards by ensuring a fair and honest job search experience. We verify job listings, promote trust between employers and candidates, and provide accurate information.</p>
+                            </div>
+                            <div class="valueItem">
+                                <h3>Innovation</h3>
+                                <p>We leverage cutting-edge technology to make job searching more efficient and accessible. Our AI-driven recommendations and user-friendly platform help candidates find the right jobs faster.</p>
+                            </div>
+                            <div class="valueItem">
+                                <h3>Inclusivity</h3>
+                                <p>We are committed to creating equal opportunities for everyone, regardless of background, experience level, or industry. Our platform supports diversity and inclusivity in the job market.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="valuesImage">
+                        <img src="../assets/img1.jpg" alt="">
+                    </div>
+                </div>                
             </section>
+            
+            <!-- start of testimonial section -->
+            <section class="testimonials-section">
+                <div class="testimonial-wrap">
+                    <div class="testmonial-content">
+                    <h2 class="sectionTitle textCenterd">
+                        What others say about us
+                    </h2>
+                    <p class="textCenterd">
+                        Our clients love us, and we're sure you will too!
+                    </p>
+                    </div>
+                    <div class="tcards-wrap">
+                    <div class="testmonial-cards">
+                        <div class="tcard">
+                        <div class="card-content">
+                            <p class="quotes">
+                            "I was blown away by the level of service and expertise that was provided by the team. They truly went above and beyond to ensure that my project was a success."
+                            </p>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-image">
+                            <img src="../../front-end/assets/img3.jpg" alt="">
+                            </div>
+                            <div class="person-info">
+                            <h5 class="name">Micheal Smith</h5>
+                            <p class="position">
+                                <span>CEO</span>
+                                <span>XZcodes</span>
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tcard">
+                        <div class="card-content">
+                            <p class="quotes">
+                            "The team delivered exceptional work. Their attention to detail and commitment to quality impressed me greatly."
+                            </p>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-image">
+                            <img src="../../front-end/assets/img2.jpg" alt="">
+                            </div>
+                            <div class="person-info">
+                            <h5 class="name">Emily Johnson</h5>
+                            <p class="position">
+                                <span>Founder</span>
+                                <span>DesignHub</span>
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tcard">
+                        <div class="card-content">
+                            <p class="quotes">
+                            "Highly recommend working with this amazing team. They transformed my vision into reality seamlessly."
+                            </p>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-image">
+                            <img src="../../front-end/assets/img1.jpg" alt="">
+                            </div>
+                            <div class="person-info">
+                            <h5 class="name">James Carter</h5>
+                            <p class="position">
+                                <span>Manager</span>
+                                <span>BrightTech</span>
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tcard">
+                        <div class="card-content">
+                            <p class="quotes">
+                            "I was blown away by the level of service and expertise that was provided by the team. They truly went above and beyond to ensure that my project was a success."
+                            </p>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-image">
+                            <img src="../../front-end/assets/img1.jpg" alt="">
+                            </div>
+                            <div class="person-info">
+                            <h5 class="name">Micheal Smith</h5>
+                            <p class="position">
+                                <span>CEO</span>
+                                <span>XZcodes</span>
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tcard">
+                            <div class="card-content">
+                                <p class="quotes">
+                                "The team delivered exceptional work. Their attention to detail and commitment to quality impressed me greatly."
+                                </p>
+                            </div>
+                            <div class="profile">
+                                <div class="profile-image">
+                                <img src="../../front-end/assets/img1.jpg" alt="">
+                                </div>
+                                <div class="person-info">
+                                <h5 class="name">Emily Johnson</h5>
+                                <p class="position">
+                                    <span>Founder</span>
+                                    <span>DesignHub</span>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tcard">
+                        <div class="card-content">
+                            <p class="quotes">
+                            "Highly recommend working with this amazing team. They transformed my vision into reality seamlessly."
+                            </p>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-image">
+                            <img src="../../front-end/assets/img1.jpg" alt="">
+                            </div>
+                            <div class="person-info">
+                            <h5 class="name">James Carter</h5>
+                            <p class="position">
+                                <span>Manager</span>
+                                <span>BrightTech</span>
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="controller prev">←</button>
+                    <button class="controller next">→</button>
+                    </div>
+                </div>
+            <!-- end of testimonial section -->
+            </section>
+            <!-- start of map section -->
             <section class="mapSection">
                 <div class="mapWrap">
-                    <div class="map"></div>
+                    <div class="locationTitle">
+                        <h2 class="sectionTitle">Our Location</h2>
+                        <p>
+                            1234, Arua, Uganda
+                        </p>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.282394661182!2d30.916245574068594!3d3.0186059539431254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x176e623e1f4b5463%3A0xab86a2d4fda7254c!2sWeatherhead%20Lane%2C%20Arua!5e0!3m2!1sen!2sug!4v1743498698595!5m2!1sen!2sug" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contactInfo">
+                        <div>
+                            <p><i class="fa-solid fa-location-dot"></i><strong>Our Offices:</strong><span>Plot 2A, Weatherhead Lane,Arua</span></p>
+                            <p><i class="fa-solid fa-square-phone"></i><strong>Phone:</strong><span> +256099788556</span></p>
+                            <p><i class="fa-solid fa-mobile-screen-button"></i><strong>Hotline:</strong><span> 0133303030</span></p>
+                            <p><i class="fa-solid fa-envelope-open-text"></i><strong>Our Offices:</strong><span></span></p>
+                        </div>
+                        <div class="ctnInfo">
+                            <h2 class="sectionTitle">Reach Out To Us</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Cum nesciunt consectetur debitis magnam,
+                            </p>
+                            <button class="btn">
+                                <a href="../pages/contact.html">Contact Us</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="footerContent">
+              <div class="topFooter">
+                <div class="leftWrap">
+                  <span class="logo">
+                    empUs
+                  </span>
+                  <span class="social-media">
+
+                  </span>
+                </div>
+                <div class="middleWrap">
+                  <ul>
+                    <li class="footer-link"><a href="../pages/about.html">About us</a></li>
+                    <li class="footer-link"><a href="#">Features</a></li>
+                    <li class="footer-link"><a href="../pages/blog.html">Blog</a></li>
+                    <li class="footer-link"><a href="../pages/partners.html">Partners</a></li>
+                  </ul>
+                </div>
+                <div class="rightWrap">
+                  <ul>
+                    <li class="footer-link"><a href="">Support</a></li>
+                    <li class="footer-link"><a href="../pages/faq.html">FAQs</a></li>
+                    <li class="footer-link"><a href="../pages/careers.html">Careers</a></li>
+                    <li class="footer-link"><a href="">Pricing</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lowerFooter">
+                <span>Terms and Conditions</span>
+                <span>&copy; 2025 empUs</span>
+                <span>All rights Reserved</span>
+                 
+              </div>
+            </div>
+        </footer>
     </div>
+    <script src="../scripts/testmonialCards.js"></script>
+    <script src="../scripts/mobileSideBar.js"></script>
 </body>
 </html>
