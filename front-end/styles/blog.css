@@ -18,7 +18,15 @@
     transform: translate(-50%,-50%);
     z-index: 33;
     color: #ffff;
-    text-align: center;
+}
+.image_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 0, 46, 0.801);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 /* main section */
@@ -72,6 +80,11 @@ main{
 
 .MoreBtnWrap button{
     background: transparent;
+}
+
+.MoreBtnWrap button:isActive{
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen  and (max-width:600px){

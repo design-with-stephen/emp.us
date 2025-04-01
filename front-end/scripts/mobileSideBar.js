@@ -37,3 +37,13 @@
     })
 
 })();
+
+
+// on scroll the navbar if fixed at the top of the page
+
+const fixedNavBar = document.querySelector(".navbar");
+const body = document.querySelector("body");
+window.addEventListener("scroll", () => {
+    fixedNavBar.classList.add("navbarOnScroll");
+    console.log("scrolled")
+});

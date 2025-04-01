@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function updatePostsDisplay() {
         blogPosts.forEach((post, index) => {
             if (index < postsToShow) {
-                post.style.display = "block";
+                post.style.display = "flex";
             } else {
                 post.style.display = "none";
             }
