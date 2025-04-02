@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="/front-end/styles/util.css">
+    <link rel="stylesheet" href="/front-end/styles/login.css">
+</head>
+<body>
+    <div class="container">
+        <p>
+            <a href="">
+             <i class="fas fa-arrow-left"></i>BacK</a>
+        </p>
+        <div class="loginContainer">
+            <div class="form_wrap">
+                <h2>Login</h2>
+                <form action="" class="loginForm">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                        <i class="fas fa-eye toggle-password" onclick="togglePassword()"></i>
+                    </div>
+                    <button class="login-btn">Login 
+                        <!-- icon -->
+                        <i class="fas fa-"></i>
+                    </button>
+                    <span class="form_seperator">OR</span>
+                    <button class="google-btn">Login with Google</button>
+                </form>
+                <div class="text_wrap">
+                    <p>Don't have an account?<a href="register.html">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

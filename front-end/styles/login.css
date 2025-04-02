@@ -1,0 +1,80 @@
+.container{
+    padding: 4rem;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+.loginContainer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.form_wrap{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.form_wrap h2{
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-60%,);
+    cursor: pointer;
+}
+.login-btn, .google-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-btn {
+    background-color: #28a745;
+    color: white;
+}
+.google-btn {
+    background-color: #010ebb;
+    color: white;
+}
+.form_seperator{
+    padding: 2rem 0;
+}
+.text_wrap{
+    text-align: start;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        padding: 2rem;
+    }
+    .loginContainer  {
+        height: fit-content;
+    }
+    .form_wrap{
+        padding: 20px;
+        width: 100%;
+    }
+}
