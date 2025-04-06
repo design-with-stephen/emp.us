@@ -7,6 +7,7 @@
 .content_wrapper{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 .content_wrapper a{
     color: var(--textColor);

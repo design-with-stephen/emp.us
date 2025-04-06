@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: self-start;
+    background: transparent;
 }
 .navbar.navbarOnScroll{
     width: 100%;
@@ -92,6 +93,7 @@
 
 .hamburger{
     padding: 5px 10px;
+    color: var(--textColor);
     border: 1px solid #a8a8a898;
     border-radius: 5px;
     display: none;
@@ -102,7 +104,7 @@
     display: none;
     height: 100vh;
     width: 80%;
-    background: #23005a;
+    background:var(--sideBarColor);
     top: 0;
     position: fixed;
     padding: 2rem;
@@ -115,7 +117,9 @@
     -ms-overflow-style: none; /* Hide scrollbar in IE & Edge */
     scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
-
+.lower-section{
+    background: var(--cards-bg);
+}
 .mobile-linksWrap::-webkit-scrollbar {
     display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
 }
@@ -172,7 +176,7 @@
     color: #fff;
 }
 .mobile-upgrade{
-    background: #fff;
+    background:var(--cards-bg);
     padding: 0.5rem;
     border-radius: 5px;
     text-align: center;
@@ -242,7 +246,7 @@
     .navbar{
         width: 100%;
         padding: 0.6rem;
-        background: var(--white);
+
     }
     .linksWrap{
         display: none;
@@ -264,6 +268,11 @@
     .dropDownMenu{
         display: none;
         transition: 0.6s ease all;
+    }
+
+    .navbar.navbarOnScroll{
+        width: 100%;
+        padding: 20px 1rem;
     }
     
 }

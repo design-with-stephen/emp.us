@@ -59,7 +59,7 @@ main{
 
 /* mission styles */
 .missionSection{
-    background: #080149;
+    background: var(--ribbonBg);
     margin-top: 2rem;
 }
 
@@ -119,12 +119,15 @@ main{
 /* core values section */
 .coreValuesSection{
     padding: 4rem 0;
+    color:var(--textColor)
 }
 .coreValuesWrap{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 80%;
     margin: 0 auto;
+    font-size: 1rem;
+    gap: 20px;
 }
 .valuesImage img{
     width: 100%;
@@ -139,7 +142,7 @@ main{
 
 .valueItem {
     position: relative;
-    padding-left: 30px; /* Space for the bullet */
+    padding-left: 30px; 
     margin-bottom: 20px;
 }
 
@@ -170,7 +173,6 @@ main{
 
     /* mission styles */
     .missionSection{
-        background: #080149;
         margin-top: 2rem;
     }
     .missionContent{
