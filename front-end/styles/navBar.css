@@ -112,6 +112,9 @@
     transition: 0.6s ease all;
     z-index: 800;
 }
+.modeBtn i{
+    color: var(--textColor);
+}
 .mobile-linksWrap {
     height: fit-content;
     padding-bottom: 2rem;

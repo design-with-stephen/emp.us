@@ -39,6 +39,7 @@
     border: 2px solid var(--borderColor);
     border-radius: 5px;
     color: var(--textColor);
+    background: transparent;
 }
 .searchForm input:focus{
     outline:2px solid var(--borderFocusColor);
@@ -204,6 +205,7 @@
     border: 2px solid var(--borderColor);
     border-radius: 5px;
     color: var(--textColor);
+    background: transparent;
 }
 
 /* media queries */
