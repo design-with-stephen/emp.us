@@ -17,6 +17,7 @@
     --background: #fcfcfc;
     --textColor: #131313bb;
     --titleColor: #000000da;
+    --sectionBg:##fcfcfc;
     --subtitleColor:#101010e3;
     --sideBarColor: #23005a;
     --white:#fff;
@@ -38,6 +39,7 @@
 
 body.darkTheme{
     --background:  rgb(2, 6, 6);
+    --sectionBg:rgb(3, 8, 8);
     --titleColor: #ededed;
     --subtitleColor:#ededede3;
     --navBg: rgb(5, 1, 10);

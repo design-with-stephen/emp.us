@@ -315,7 +315,7 @@
     }
     
     .HowItWorks {
-        background: #fff;
+        background: var(--sectionBg);
         padding: 20px 0;
         width: 100%;
         height: fit-content;
