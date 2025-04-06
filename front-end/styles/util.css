@@ -16,7 +16,10 @@
 :root{
     --background: #fcfcfc;
     --textColor: #131313bb;
+    --titleColor: #000000da;
+    --subtitleColor:#101010e3;
     --white:#fff;
+    --navBg:#fff;
     --title-color: rgba(98, 0, 255, 0.904);
     --cards-bg:#fff;
     --btn-bg: rgba(98, 0, 255, 0.904);
@@ -26,7 +29,33 @@
     --navLinkColor:#020202f5;
     --borderColor:#85858575;
     --borderFocusColor:rgba(98, 0, 255, 0.904);
+    --ribbonBg:rgba(98, 0, 255, 0.904);
+    --card_titleColor: rgba(98, 0, 255, 0.904);
+    --footerBg:#23005a;
 }
+
+
+body.darkTheme{
+    --background:  rgb(2, 6, 6);
+    --titleColor: #ededed;
+    --subtitleColor:#ededede3;
+    --navBg: rgb(5, 1, 10);
+    --textColor:  #d1d1d1d8;
+    --white:#fff;
+    --card_titleColor: rgba(98, 0, 255, 0.985);
+    --title-color: rgba(98, 0, 255, 0.904);
+    --cards-bg:rgb(5, 8, 9);
+    --btn-bg: rgba(98, 0, 255, 0.904);
+    --btn-color: #f2f2f2;
+    --logo-color:rgb(98, 0, 255);
+    --linkHover: rgba(98, 0, 255, 0.904);
+    --navLinkColor:#fcfcfc;
+    --borderColor:#85858575;
+    --borderFocusColor:rgba(98, 0, 255, 0.904);
+    --ribbonBg:rgb(3, 8, 8);
+    --footerBg:#000403;
+}
+
 
 ul{
     list-style: none;
@@ -50,10 +79,25 @@ button{
     color: var(--btn-color);
     padding: 10px 20px;
 }
-
+.modeBtn{
+    color: var(--textColor);
+    cursor: pointer;
+}
+h2{
+    color: var(--textColor);
+}
+h5{
+    color: var(--subtitleColor);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
 h3{
     font-weight: 400;
     font-size: 1.5rem;
+
+}
+h4{
+    color: var(--card_titleColor);
 }
 .sectionPadding{
     padding: 100px 0px;
@@ -64,10 +108,11 @@ p{
 }
 .sectionTitle{
     font-weight: 400;
+    color: var(--titleColor);
 }
 
 .subtitle{
-    color: #430396;
+    color: var(--subtitleColor);
     font-size: 1.2rem;
     margin-top: 0.6rem;
     

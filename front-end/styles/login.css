@@ -1,13 +1,21 @@
 .container{
-    padding: 4rem;
-    background-color: #f4f4f4;
+    padding: 3rem 4rem;
+    background-color: var(--background);
     height: 100vh;
+}
+
+.content_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.content_wrapper a{
+    color: var(--textColor);
 }
 .loginContainer  {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: fit-content;
 }
 .form_wrap{
     padding: 20px;
@@ -15,6 +23,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: center;
+    border: 1px solid var(--borderColor);
 }
 .form_wrap h2{
     margin-bottom: 20px;
@@ -28,12 +37,15 @@
 .input-group label {
     display: block;
     margin-bottom: 5px;
+    color: var(--textColor);
 }
 .input-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--borderColor);
     border-radius: 5px;
+    background-color: transparent;
+    color: var(--textColor);
 }
 .toggle-password {
     position: absolute;
@@ -77,4 +89,5 @@
         padding: 20px;
         width: 100%;
     }
+    
 }

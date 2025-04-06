@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page</title>
-    <link rel="stylesheet" href="/front-end/styles/util.css">
-    <link rel="stylesheet" href="/front-end/styles/login.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/util.css">
 </head>
 <body>
     <div class="container">
-        <p>
-            <a href="">
-             <i class="fas fa-arrow-left"></i>BacK</a>
-        </p>
+        <div class="content_wrapper">
+            <a href="../../index.html">
+             <i class="fas fa-arrow-left"></i>BacK
+            </a>
+            <span class="modeBtn"><i class="fa-solid fa-sun"></i></span>
+        </div>
         <div class="loginContainer">
             <div class="form_wrap">
                 <h2>Login</h2>
                 <form action="" class="loginForm">
                     <div class="input-group">
                         <label for="email">Email</label>
-                        <input type="email" name="email" required>
+                        <input type="email" name="email" required placeholder="please Enter Email eg example@gmail.com">
                     </div>
                     <div class="input-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password" required>
+                        <input type="password" id="password" name="password" required placeholder="please Enter Password">
                         <i class="fas fa-eye toggle-password" onclick="togglePassword()"></i>
                     </div>
                     <button class="login-btn">Login 
@@ -39,5 +41,6 @@
             </div>
         </div>
     </div>
+    <script src="../scripts/darkmode.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 
 footer{
-    background: #23005a;
+    background: var(--footerBg);
 }
 .footerContent{
     width: 80%;

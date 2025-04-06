@@ -1,16 +1,16 @@
 .navbar{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    padding: 20px 4rem;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: self-start;
-    padding: 20px;
 }
 .navbar.navbarOnScroll{
     width: 100%;
+    padding: 20px 4rem;
     position: fixed;
-    background: #fff;
+    background: var(--navBg);
     z-index: 700;
 }
 .linksWrap{
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 .premium .login{
     padding: 10px 30px;
